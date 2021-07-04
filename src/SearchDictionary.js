@@ -8,7 +8,7 @@ import axios from "axios";
         event.preventDefault();
         alert(`Searching for ${keyword}`);
 
-        let apiUrl= `https://api.dictionaryapi.dev/api/v2/entries/en_US/sunset`;
+        let apiUrl= `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
           axios.get(apiUrl).then(handleResponse);
     }
 
