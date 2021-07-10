@@ -12,7 +12,7 @@ import Meaning from "./Meaning";
               
               return (
                 <div key={index}>
-                  <Meaning meanings={meaning} />
+                  <Meaning meaning={meaning} />
                 </div>
               );
             })}
