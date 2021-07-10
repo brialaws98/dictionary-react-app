@@ -12,7 +12,13 @@ function App() {
 
       </main>
       <footer>
-        <strong>open source</strong> code by <em>Briana Laws</em>
+        <strong>
+          <a href="https://github.com/brialaws98/dictionary-react-app">
+            open source
+
+          </a>
+        </strong>
+           code by <em>Briana Laws</em>
       </footer>
     </div>
   );
