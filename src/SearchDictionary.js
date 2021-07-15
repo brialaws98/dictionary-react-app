@@ -1,5 +1,6 @@
 import React, {useState} from "react"; 
 import Results from "./Results";
+import "./Results.css";
 import axios from "axios";
 
   export default function SearchDictionary (){

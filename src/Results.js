@@ -7,7 +7,9 @@ import Meaning from "./Meaning";
       if (props.results) {
         return (
           <div className="Results">
-            <h2>{props.results.word}</h2>
+            <h2 className="dictionaryWord">
+              {props.results.word}
+            </h2>
             {props.results.meanings.map(function (meaning, index) {
               
               return (

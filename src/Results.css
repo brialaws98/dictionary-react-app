@@ -1,0 +1,8 @@
+.Results{
+    margin: 20px;
+    padding: 20px;
+}
+.dictionaryWord{
+    color: red;
+    text-transform: capitalize;
+}
